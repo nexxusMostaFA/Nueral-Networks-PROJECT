@@ -6,7 +6,7 @@ from PIL import Image
 import tensorflow as tf
 from tensorflow import keras
 
-MODEL_PATH = r"C:\Users\mostafa\Desktop\Nueral-Networks-PROJECT\Ai_model\best_banknote_model(1).keras"
+MODEL_PATH = r"C:\Users\mostafa\Desktop\Nueral-Networks-PROJECT\best_banknote_model(1).keras"
 IMAGE_SIZE = (128, 128)
 
     
