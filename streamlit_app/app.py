@@ -1,8 +1,9 @@
 import streamlit as st
 import requests
 from PIL import Image
+import os
 
-API_URL = "http://localhost:5000"
+API_URL = os.environ.get("API_URL", "http://localhost:5000")
 
 st.set_page_config(page_title="Banknote Classifier", page_icon="")
 

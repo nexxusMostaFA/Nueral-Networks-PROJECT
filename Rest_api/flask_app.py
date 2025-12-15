@@ -3,10 +3,14 @@ import os
 import numpy as np
 from flask import Flask, request, jsonify
 from PIL import Image
+import os
 import tensorflow as tf
 from tensorflow import keras
 
-MODEL_PATH = r"C:\Users\mostafa\Desktop\Nueral-Networks-PROJECT\best_banknote_model(1).keras"
+# Dynamic path that works on both Windows and Linux
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "best_banknote_model(1).keras")
+
 IMAGE_SIZE = (128, 128)
 
     

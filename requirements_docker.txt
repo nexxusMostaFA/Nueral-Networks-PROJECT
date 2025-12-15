@@ -1,0 +1,10 @@
+Flask>=3.0.0
+gunicorn>=21.0.0
+pillow>=10.0.0
+tensorflow>=2.15.0
+torchvision
+numpy
+scikit-learn
+keras>=3.0.0
+streamlit
+requests
