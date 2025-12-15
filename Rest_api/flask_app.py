@@ -9,7 +9,7 @@ from tensorflow import keras
 
 # Dynamic path that works on both Windows and Linux
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_PATH = os.path.join(BASE_DIR, "best_banknote_model(1).keras")
+MODEL_PATH = os.path.join(BASE_DIR, "model.keras")
 
 IMAGE_SIZE = (128, 128)
 
